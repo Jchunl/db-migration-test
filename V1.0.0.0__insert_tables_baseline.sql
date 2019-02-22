@@ -1,7 +1,6 @@
-﻿I N S E R T   [ d b o ] . [ A c c e s s T y p e ]   ( [ L o g i n A c c e s s T y p e I D ] ,   [ A c c e s s T y p e ] ,   [ C r e a t e d B y ] ,   [ C r e a t e d O n ] ,   [ U p d a t e d B y ] ,   [ U p d a t e d O n ] )   V A L U E S   ( 3 ,   N ' F u l l ' ,   N ' A d m i n ' ,   C A S T ( N ' 2 0 1 2 - 1 1 - 0 7 T 1 1 : 1 5 : 2 5 . 3 8 0 '   A S   D a t e T i m e ) ,   N U L L ,   N U L L )  
-  
- I N S E R T   [ d b o ] . [ A c c e s s T y p e ]   ( [ L o g i n A c c e s s T y p e I D ] ,   [ A c c e s s T y p e ] ,   [ C r e a t e d B y ] ,   [ C r e a t e d O n ] ,   [ U p d a t e d B y ] ,   [ U p d a t e d O n ] )   V A L U E S   ( 4 ,   N ' C o n t r o l l e d ' ,   N ' A d m i n ' ,   C A S T ( N ' 2 0 1 2 - 1 1 - 0 7 T 1 1 : 1 5 : 2 5 . 3 8 0 '   A S   D a t e T i m e ) ,   N U L L ,   N U L L )  
-  
- I N S E R T   [ d b o ] . [ A c c e s s T y p e ]   ( [ L o g i n A c c e s s T y p e I D ] ,   [ A c c e s s T y p e ] ,   [ C r e a t e d B y ] ,   [ C r e a t e d O n ] ,   [ U p d a t e d B y ] ,   [ U p d a t e d O n ] )   V A L U E S   ( 5 ,   N ' N o t   V i s i b l e ' ,   N ' A d m i n ' ,   C A S T ( N ' 2 0 1 3 - 0 1 - 1 5 T 1 8 : 2 5 : 4 8 . 1 9 0 '   A S   D a t e T i m e ) ,   N U L L ,   N U L L )  
-  
- 
+INSERT [dbo].[AccessType] ([LoginAccessTypeID], [AccessType], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn]) VALUES (3, N'Full', N'Admin', CAST(N'2012-11-07T11:15:25.380' AS DateTime), NULL, NULL)
+
+INSERT [dbo].[AccessType] ([LoginAccessTypeID], [AccessType], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn]) VALUES (4, N'Controlled', N'Admin', CAST(N'2012-11-07T11:15:25.380' AS DateTime), NULL, NULL)
+
+INSERT [dbo].[AccessType] ([LoginAccessTypeID], [AccessType], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn]) VALUES (5, N'Not Visible', N'Admin', CAST(N'2013-01-15T18:25:48.190' AS DateTime), NULL, NULL)
+
